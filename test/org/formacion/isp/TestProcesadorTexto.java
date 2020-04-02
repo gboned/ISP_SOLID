@@ -9,7 +9,7 @@ public class TestProcesadorTexto {
 
 	@Test
 	public void test_simple() {
-		
+		// No necesita el tipo de procesador con idioma
 		ProcesadorTexto procesador = new ProcesadorTexto();
 		
 		procesador.nueva("No");
