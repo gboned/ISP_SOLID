@@ -1,10 +1,12 @@
 package org.formacion.isp;
 
+import org.formacion.isp.ProcesadorTextoSimple;
+import org.formacion.isp.ProcesadorTextoComplejo;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ProcesadorTexto {
+public abstract class ProcesadorTexto implements ProcesadorTextoSimple, ProcesadorTextoComplejo {
 
 
 	private List<String> texto = new ArrayList<>();
